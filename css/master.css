@@ -3,6 +3,10 @@ body{
   background-color: #33363a;
   list-style-type: none;
   font-family: 'Roboto', sans-serif;
+  background-image:url(https://wallpapercave.com/wp/wp3803463.jpg);
+  height: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 .header{
 
@@ -19,14 +23,18 @@ a{
   text-decoration: none;
 }
 .launcher{
+  opacity: 0.7;
   color: #ccc;
   background-color: #4f5154;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-left: 30%;
   margin-right: 30%;
   padding-top: 2%;
   padding-bottom: 13%;
 
+}
+.launcher:hover{
+  opacity: 1;
 }
 .list{
   list-style-type: none;
